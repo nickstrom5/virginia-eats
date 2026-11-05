@@ -1,0 +1,21 @@
+{
+  "name": "Old Dominion Eats",
+  "short_name": "VA Eats",
+  "description": "Ham biscuits, oysters & pollo: a guide to 17,486 Virginia restaurants.",
+  "start_url": "/virginia-eats/",
+  "display": "browser",
+  "background_color": "#fbf7ee",
+  "theme_color": "#1f3a5f",
+  "icons": [
+    {
+      "src": "/virginia-eats/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/virginia-eats/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

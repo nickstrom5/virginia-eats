@@ -1,0 +1,620 @@
+{
+ "generated": "2026-11-05",
+ "domain": "https://nickstrom5.github.io/virginia-eats",
+ "restaurants": 17486,
+ "places_incl_hidden": 17918,
+ "towns": 473,
+ "counties": 133,
+ "on_an_official_list": 2418,
+ "hand_checked_on_a_guide": 42,
+ "serves_alcohol_state_license": 0,
+ "guide_hams": 7,
+ "guide_oysters": 10,
+ "guide_counters": 7,
+ "guide_latin": 6,
+ "guide_asian": 8,
+ "guide_stew": 0,
+ "guide_wine": 4,
+ "oldest": 3,
+ "honors": 8,
+ "michelin": {
+  "MICHELIN Recommended": 1,
+  "2 MICHELIN Stars": 1
+ },
+ "james_beard": 7,
+ "americas_classics": 1,
+ "permits_updated": "2026-11-05",
+ "city_pages": {
+  "Richmond": {
+   "restaurants": 1043,
+   "listed": 5,
+   "hams": 1,
+   "oysters": 0,
+   "counters": 1,
+   "latin": 0,
+   "asian": 2,
+   "stew": 0,
+   "wine": 0,
+   "hon": 2,
+   "oldest": 0
+  },
+  "Norfolk": {
+   "restaurants": 601,
+   "listed": 4,
+   "hams": 1,
+   "oysters": 2,
+   "counters": 1,
+   "latin": 0,
+   "asian": 0,
+   "stew": 0,
+   "wine": 0,
+   "hon": 0,
+   "oldest": 0
+  }
+ },
+ "cities_without_a_page": {
+  "Virginia Beach": 1,
+  "Alexandria": 1,
+  "Arlington": 1,
+  "Falls Church": 3,
+  "Charlottesville": 3,
+  "Roanoke": 2,
+  "Leesburg": 3,
+  "Middleburg": 3,
+  "Fairfax": 1,
+  "Annandale": 1,
+  "Chantilly": 2,
+  "Williamsburg": 0,
+  "Fredericksburg": 0,
+  "Abingdon": 1,
+  "Staunton": 1,
+  "Washington": 2
+ },
+ "noindex_pages": [],
+ "web_app_data_bytes": {
+  "data/core.json": {
+   "raw": 1353941,
+   "gzip": 283305
+  },
+  "data/detail-accomack-county.json": {
+   "raw": 4840,
+   "gzip": 1464
+  },
+  "data/detail-albemarle-county.json": {
+   "raw": 11494,
+   "gzip": 3167
+  },
+  "data/detail-alleghany-county.json": {
+   "raw": 1244,
+   "gzip": 470
+  },
+  "data/detail-amelia-county.json": {
+   "raw": 770,
+   "gzip": 339
+  },
+  "data/detail-amherst-county.json": {
+   "raw": 2911,
+   "gzip": 921
+  },
+  "data/detail-appomattox-county.json": {
+   "raw": 1264,
+   "gzip": 465
+  },
+  "data/detail-arlington-county.json": {
+   "raw": 29932,
+   "gzip": 8041
+  },
+  "data/detail-augusta-county.json": {
+   "raw": 4666,
+   "gzip": 1341
+  },
+  "data/detail-bath-county.json": {
+   "raw": 582,
+   "gzip": 231
+  },
+  "data/detail-bedford-county.json": {
+   "raw": 6227,
+   "gzip": 1816
+  },
+  "data/detail-bland-county.json": {
+   "raw": 189,
+   "gzip": 153
+  },
+  "data/detail-botetourt-county.json": {
+   "raw": 3060,
+   "gzip": 1010
+  },
+  "data/detail-brunswick-county.json": {
+   "raw": 948,
+   "gzip": 422
+  },
+  "data/detail-buchanan-county.json": {
+   "raw": 827,
+   "gzip": 362
+  },
+  "data/detail-buckingham-county.json": {
+   "raw": 371,
+   "gzip": 215
+  },
+  "data/detail-campbell-county.json": {
+   "raw": 4697,
+   "gzip": 1305
+  },
+  "data/detail-caroline-county.json": {
+   "raw": 2724,
+   "gzip": 915
+  },
+  "data/detail-carroll-county.json": {
+   "raw": 1944,
+   "gzip": 627
+  },
+  "data/detail-charles-city-county.json": {
+   "raw": 320,
+   "gzip": 176
+  },
+  "data/detail-charlotte-county.json": {
+   "raw": 385,
+   "gzip": 193
+  },
+  "data/detail-chesterfield-county.json": {
+   "raw": 40930,
+   "gzip": 9906
+  },
+  "data/detail-city-of-alexandria.json": {
+   "raw": 23310,
+   "gzip": 6278
+  },
+  "data/detail-city-of-bristol.json": {
+   "raw": 5021,
+   "gzip": 1466
+  },
+  "data/detail-city-of-buena-vista.json": {
+   "raw": 956,
+   "gzip": 389
+  },
+  "data/detail-city-of-charlottesville.json": {
+   "raw": 14595,
+   "gzip": 4043
+  },
+  "data/detail-city-of-chesapeake.json": {
+   "raw": 30727,
+   "gzip": 7365
+  },
+  "data/detail-city-of-colonial-heights.json": {
+   "raw": 6079,
+   "gzip": 1802
+  },
+  "data/detail-city-of-covington.json": {
+   "raw": 881,
+   "gzip": 344
+  },
+  "data/detail-city-of-danville.json": {
+   "raw": 7660,
+   "gzip": 2079
+  },
+  "data/detail-city-of-emporia.json": {
+   "raw": 1368,
+   "gzip": 513
+  },
+  "data/detail-city-of-fairfax.json": {
+   "raw": 34768,
+   "gzip": 4476
+  },
+  "data/detail-city-of-falls-church.json": {
+   "raw": 24846,
+   "gzip": 3085
+  },
+  "data/detail-city-of-franklin.json": {
+   "raw": 1638,
+   "gzip": 532
+  },
+  "data/detail-city-of-fredericksburg.json": {
+   "raw": 11134,
+   "gzip": 3068
+  },
+  "data/detail-city-of-galax.json": {
+   "raw": 2188,
+   "gzip": 699
+  },
+  "data/detail-city-of-hampton.json": {
+   "raw": 16651,
+   "gzip": 4324
+  },
+  "data/detail-city-of-harrisonburg.json": {
+   "raw": 13235,
+   "gzip": 3585
+  },
+  "data/detail-city-of-hopewell.json": {
+   "raw": 2425,
+   "gzip": 795
+  },
+  "data/detail-city-of-lexington.json": {
+   "raw": 1625,
+   "gzip": 545
+  },
+  "data/detail-city-of-lynchburg.json": {
+   "raw": 15739,
+   "gzip": 4141
+  },
+  "data/detail-city-of-manassas-park.json": {
+   "raw": 768,
+   "gzip": 314
+  },
+  "data/detail-city-of-manassas.json": {
+   "raw": 7643,
+   "gzip": 2255
+  },
+  "data/detail-city-of-martinsville.json": {
+   "raw": 2400,
+   "gzip": 763
+  },
+  "data/detail-city-of-newport-news.json": {
+   "raw": 24141,
+   "gzip": 5981
+  },
+  "data/detail-city-of-norfolk.json": {
+   "raw": 36101,
+   "gzip": 9122
+  },
+  "data/detail-city-of-norton.json": {
+   "raw": 1396,
+   "gzip": 539
+  },
+  "data/detail-city-of-petersburg.json": {
+   "raw": 3850,
+   "gzip": 1175
+  },
+  "data/detail-city-of-poquoson.json": {
+   "raw": 1014,
+   "gzip": 396
+  },
+  "data/detail-city-of-portsmouth.json": {
+   "raw": 9061,
+   "gzip": 2525
+  },
+  "data/detail-city-of-radford.json": {
+   "raw": 2431,
+   "gzip": 794
+  },
+  "data/detail-city-of-richmond.json": {
+   "raw": 36192,
+   "gzip": 9956
+  },
+  "data/detail-city-of-roanoke.json": {
+   "raw": 18578,
+   "gzip": 5108
+  },
+  "data/detail-city-of-salem.json": {
+   "raw": 5036,
+   "gzip": 1488
+  },
+  "data/detail-city-of-staunton.json": {
+   "raw": 5200,
+   "gzip": 1585
+  },
+  "data/detail-city-of-suffolk.json": {
+   "raw": 10309,
+   "gzip": 2760
+  },
+  "data/detail-city-of-virginia-beach.json": {
+   "raw": 73398,
+   "gzip": 16879
+  },
+  "data/detail-city-of-waynesboro.json": {
+   "raw": 5330,
+   "gzip": 1637
+  },
+  "data/detail-city-of-williamsburg.json": {
+   "raw": 6486,
+   "gzip": 1885
+  },
+  "data/detail-city-of-winchester.json": {
+   "raw": 9742,
+   "gzip": 2716
+  },
+  "data/detail-clarke-county.json": {
+   "raw": 1424,
+   "gzip": 523
+  },
+  "data/detail-craig-county.json": {
+   "raw": 344,
+   "gzip": 214
+  },
+  "data/detail-culpeper-county.json": {
+   "raw": 5242,
+   "gzip": 1547
+  },
+  "data/detail-cumberland-county.json": {
+   "raw": 284,
+   "gzip": 178
+  },
+  "data/detail-dickenson-county.json": {
+   "raw": 978,
+   "gzip": 370
+  },
+  "data/detail-dinwiddie-county.json": {
+   "raw": 1370,
+   "gzip": 539
+  },
+  "data/detail-essex-county.json": {
+   "raw": 1706,
+   "gzip": 549
+  },
+  "data/detail-fairfax-county.json": {
+   "raw": 451979,
+   "gzip": 51271
+  },
+  "data/detail-fauquier-county.json": {
+   "raw": 8539,
+   "gzip": 2437
+  },
+  "data/detail-floyd-county.json": {
+   "raw": 1048,
+   "gzip": 387
+  },
+  "data/detail-fluvanna-county.json": {
+   "raw": 1098,
+   "gzip": 432
+  },
+  "data/detail-franklin-county.json": {
+   "raw": 4813,
+   "gzip": 1362
+  },
+  "data/detail-frederick-county.json": {
+   "raw": 8392,
+   "gzip": 2290
+  },
+  "data/detail-giles-county.json": {
+   "raw": 1461,
+   "gzip": 529
+  },
+  "data/detail-gloucester-county.json": {
+   "raw": 4151,
+   "gzip": 1195
+  },
+  "data/detail-goochland-county.json": {
+   "raw": 2145,
+   "gzip": 741
+  },
+  "data/detail-grayson-county.json": {
+   "raw": 466,
+   "gzip": 242
+  },
+  "data/detail-greene-county.json": {
+   "raw": 2113,
+   "gzip": 723
+  },
+  "data/detail-greensville-county.json": {
+   "raw": 531,
+   "gzip": 276
+  },
+  "data/detail-halifax-county.json": {
+   "raw": 3204,
+   "gzip": 958
+  },
+  "data/detail-hanover-county.json": {
+   "raw": 14757,
+   "gzip": 3857
+  },
+  "data/detail-henrico-county.json": {
+   "raw": 44248,
+   "gzip": 10730
+  },
+  "data/detail-henry-county.json": {
+   "raw": 3948,
+   "gzip": 1091
+  },
+  "data/detail-highland-county.json": {
+   "raw": 256,
+   "gzip": 153
+  },
+  "data/detail-isle-of-wight-county.json": {
+   "raw": 3747,
+   "gzip": 1114
+  },
+  "data/detail-james-city-county.json": {
+   "raw": 9219,
+   "gzip": 2416
+  },
+  "data/detail-king-and-queen-county.json": {
+   "raw": 141,
+   "gzip": 94
+  },
+  "data/detail-king-george-county.json": {
+   "raw": 2884,
+   "gzip": 874
+  },
+  "data/detail-king-william-county.json": {
+   "raw": 1357,
+   "gzip": 486
+  },
+  "data/detail-lancaster-county.json": {
+   "raw": 2296,
+   "gzip": 785
+  },
+  "data/detail-lee-county.json": {
+   "raw": 1075,
+   "gzip": 410
+  },
+  "data/detail-loudoun-county.json": {
+   "raw": 49449,
+   "gzip": 12581
+  },
+  "data/detail-louisa-county.json": {
+   "raw": 3520,
+   "gzip": 1123
+  },
+  "data/detail-lunenburg-county.json": {
+   "raw": 592,
+   "gzip": 284
+  },
+  "data/detail-madison-county.json": {
+   "raw": 884,
+   "gzip": 413
+  },
+  "data/detail-mathews-county.json": {
+   "raw": 684,
+   "gzip": 282
+  },
+  "data/detail-mecklenburg-county.json": {
+   "raw": 4616,
+   "gzip": 1362
+  },
+  "data/detail-middlesex-county.json": {
+   "raw": 1388,
+   "gzip": 491
+  },
+  "data/detail-montgomery-county.json": {
+   "raw": 14017,
+   "gzip": 3704
+  },
+  "data/detail-nelson-county.json": {
+   "raw": 1751,
+   "gzip": 621
+  },
+  "data/detail-new-kent-county.json": {
+   "raw": 2370,
+   "gzip": 808
+  },
+  "data/detail-northampton-county.json": {
+   "raw": 2183,
+   "gzip": 743
+  },
+  "data/detail-northumberland-county.json": {
+   "raw": 966,
+   "gzip": 370
+  },
+  "data/detail-nottoway-county.json": {
+   "raw": 1526,
+   "gzip": 546
+  },
+  "data/detail-orange-county.json": {
+   "raw": 3438,
+   "gzip": 1047
+  },
+  "data/detail-page-county.json": {
+   "raw": 2244,
+   "gzip": 700
+  },
+  "data/detail-patrick-county.json": {
+   "raw": 1035,
+   "gzip": 409
+  },
+  "data/detail-pittsylvania-county.json": {
+   "raw": 2108,
+   "gzip": 688
+  },
+  "data/detail-powhatan-county.json": {
+   "raw": 2397,
+   "gzip": 860
+  },
+  "data/detail-prince-edward-county.json": {
+   "raw": 3178,
+   "gzip": 996
+  },
+  "data/detail-prince-george-county.json": {
+   "raw": 2792,
+   "gzip": 967
+  },
+  "data/detail-prince-william-county.json": {
+   "raw": 49121,
+   "gzip": 11895
+  },
+  "data/detail-pulaski-county.json": {
+   "raw": 4284,
+   "gzip": 1273
+  },
+  "data/detail-rappahannock-county.json": {
+   "raw": 1086,
+   "gzip": 485
+  },
+  "data/detail-richmond-county.json": {
+   "raw": 909,
+   "gzip": 374
+  },
+  "data/detail-roanoke-county.json": {
+   "raw": 9504,
+   "gzip": 2606
+  },
+  "data/detail-rockbridge-county.json": {
+   "raw": 3127,
+   "gzip": 977
+  },
+  "data/detail-rockingham-county.json": {
+   "raw": 6541,
+   "gzip": 1900
+  },
+  "data/detail-russell-county.json": {
+   "raw": 1529,
+   "gzip": 482
+  },
+  "data/detail-scott-county.json": {
+   "raw": 1277,
+   "gzip": 455
+  },
+  "data/detail-shenandoah-county.json": {
+   "raw": 5580,
+   "gzip": 1609
+  },
+  "data/detail-smyth-county.json": {
+   "raw": 2614,
+   "gzip": 838
+  },
+  "data/detail-southampton-county.json": {
+   "raw": 445,
+   "gzip": 256
+  },
+  "data/detail-spotsylvania-county.json": {
+   "raw": 16398,
+   "gzip": 4232
+  },
+  "data/detail-stafford-county.json": {
+   "raw": 14630,
+   "gzip": 3761
+  },
+  "data/detail-surry-county.json": {
+   "raw": 272,
+   "gzip": 157
+  },
+  "data/detail-sussex-county.json": {
+   "raw": 1336,
+   "gzip": 550
+  },
+  "data/detail-tazewell-county.json": {
+   "raw": 4987,
+   "gzip": 1370
+  },
+  "data/detail-warren-county.json": {
+   "raw": 5227,
+   "gzip": 1474
+  },
+  "data/detail-washington-county.json": {
+   "raw": 5593,
+   "gzip": 1678
+  },
+  "data/detail-westmoreland-county.json": {
+   "raw": 1781,
+   "gzip": 614
+  },
+  "data/detail-wise-county.json": {
+   "raw": 3098,
+   "gzip": 971
+  },
+  "data/detail-wythe-county.json": {
+   "raw": 4557,
+   "gzip": 1345
+  },
+  "data/detail-york-county.json": {
+   "raw": 9979,
+   "gzip": 2684
+  },
+  "data/ids.json": {
+   "raw": 227346,
+   "gzip": 131969
+  },
+  "data/va_shapes.json": {
+   "raw": 250805,
+   "gzip": 55907
+  }
+ }
+}
