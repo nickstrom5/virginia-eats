@@ -164,7 +164,8 @@ final class SmokeUITests: XCTestCase {
         let search = app.searchFields.firstMatch
         if !search.exists { app.swipeDown() }
         waitFor(search, 3, "search field"); search.tap(); search.typeText("richmond")
-        waitFor(text(containing: "places ·"), 3, "search results header")
+        // one match reads "1 place ·", several read "N places ·" (this guide has a single Richmond counter)
+        waitFor(app.staticTexts.matching(NSPredicate(format: "label MATCHES %@", "[0-9,]+ places? · .*")).firstMatch, 3, "search results header")
 
         // the full directory → a known place → Apple Maps card, save, share
         fresh()
