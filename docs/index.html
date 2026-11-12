@@ -2,7 +2,7 @@
 <html lang="en" data-base="/virginia-eats">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-YfPxYBJDc639ac4gHFGjFpJLVatKf6JcrBZeF/tuACM='; style-src 'sha256-aHHASPmh3LvNG7F9BwO+uCxsks39Ce7UIlj9QYYQiNc='; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-YfPxYBJDc639ac4gHFGjFpJLVatKf6JcrBZeF/tuACM='; style-src 'sha256-h6G4EU8nAcoCCyxgc6JcINw+jVhXPDHu+PvtCka1dPY='; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'none'">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Old Dominion Eats: Virginia Restaurants, Oysters &amp; Biscuits</title>
 <meta name="description" content="Ham biscuits, oyster bars, classic counters and pollo a la brasa: a free iPhone and iPad guide to 17,486 Virginia restaurants, with MICHELIN honors.">
@@ -29,15 +29,17 @@
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231F3A5F'/%3E%3Crect x='11.52' y='37.12' width='40.96' height='12.8' rx='3.84' fill='%23D9A35B'/%3E%3Crect x='12.8' y='15.36' width='38.4' height='14.08' rx='6.4' fill='%23D9A35B'/%3E%3Crect x='8.96' y='29.44' width='46.08' height='7.68' rx='2.56' fill='%23C8505A'/%3E%3Crect x='10.24' y='30.08' width='43.52' height='1.28' fill='%23F6E7D0'/%3E%3C/svg%3E">
 <link rel="icon" type="image/png" sizes="32x32" href="/virginia-eats/favicon-32.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/virginia-eats/apple-touch-icon.png">
+<link rel="preload" href="/virginia-eats/fonts/im-fell-english-sc-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="manifest" href="/virginia-eats/site.webmanifest">
-<style>
+<style>  @font-face { font-family: "IM Fell English SC"; src: url("/virginia-eats/fonts/im-fell-english-sc-latin.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
   :root {
     --bg: #fbf7ee; --surface: #fff; --surface2: #f1eee6; --rule: #e4dfd3;
     --ink: #1a1a1a; --ink2: #2e3440; --muted: #5b6270;
     --accent: #1f3a5f; --accent2: #2e5480; --on-accent: #fff; --orange: #b0172b; --on-orange: #fff; --lime: #e4a11b; --soft: #f5d9dd; --limesoft: #fbebc6;
     --focus: #b0172b;
     --radius: 16px;
-    --display: "Avenir Next Condensed", "Helvetica Neue Condensed", "Roboto Condensed", "Arial Narrow", system-ui, sans-serif;
+    --display: "Avenir Next Condensed", "Helvetica Neue Condensed", "Roboto Condensed", "Arial Narrow", system-ui, sans-serif; --head-font: "IM Fell English SC", "Avenir Next Condensed", "Helvetica Neue Condensed", "Roboto Condensed", "Arial Narrow", system-ui, sans-serif;
     --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
   }
   @media (prefers-color-scheme: dark) {
@@ -56,16 +58,16 @@
   header.site { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 18px 0 14px; }
   .stripes { display: block; margin: 0 0 4px; border-radius: 4px; overflow: hidden; line-height: 0; }
   .stripes svg { display: block; width: 100%; height: 24px; }
-  .logo { display: flex; align-items: center; gap: 10px; font: 800 24px/1 var(--display); text-transform: uppercase; letter-spacing: .01em; color: var(--accent); text-decoration: none; }
+  .logo { display: flex; align-items: center; gap: 10px; font: 400 24px/1 var(--head-font); letter-spacing: .01em; color: var(--accent); text-decoration: none; }
   .logo svg { flex: 0 0 auto; border-radius: 7px; }
   header.site nav { display: flex; flex-wrap: wrap; gap: 4px 16px; justify-content: flex-end; }
   header.site nav a { color: var(--ink2); text-decoration: none; font-size: 15px; }
   header.site nav a:hover { color: var(--accent); text-decoration: underline; }
-  h1, h2 { font-family: var(--display); font-weight: 800; color: var(--accent); letter-spacing: -.005em; }
-  h1 { font-size: clamp(40px, 8.5vw, 64px); line-height: .95; margin: 0 0 18px; text-transform: uppercase; overflow-wrap: break-word; text-shadow: 3px 3px 0 var(--orange); }
+  h1, h2 { font-family: var(--head-font); font-weight: 400; color: var(--accent); letter-spacing: -.005em; }
+  h1 { font-size: clamp(40px, 12.5vw, 64px); line-height: 1.08; margin: 0 0 18px; overflow-wrap: break-word; text-wrap: balance; }
   .kicker { font: 600 13px/1.4 var(--mono); letter-spacing: .04em; text-transform: uppercase; color: var(--accent); margin: 0 0 12px; }
   .kicker::before { content: ""; display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: var(--orange); margin: 0 8px 1px 0; }
-  h2 { font-size: 34px; line-height: 1.02; margin: 0 0 10px; text-transform: uppercase; }
+  h2 { font-size: 34px; line-height: 1.02; margin: 0 0 10px; }
   h3 { font-size: 18px; margin: 0; line-height: 1.3; }
   .lede { font-size: 19px; color: var(--ink2); margin: 0 0 26px; }
   .hero { padding: 44px 0 28px; }
@@ -90,7 +92,7 @@
   .shots p { font-size: 14px; color: var(--muted); margin: 8px 2px 0; }
   .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
   .card { background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius); padding: 18px; }
-  .card h3 { font: 800 21px/1.1 var(--display); text-transform: uppercase; letter-spacing: .01em; }
+  .card h3 { font: 400 21px/1.1 var(--head-font); letter-spacing: .01em; }
   a.card.gc { display: flex; flex-direction: column; gap: 6px; border: 0; border-radius: 18px; min-height: 150px; }
   a.card.gc b { font: 600 32px/1 var(--mono); margin-bottom: auto; }
   a.card.gc p, a.card.gc h3 { color: inherit; }
