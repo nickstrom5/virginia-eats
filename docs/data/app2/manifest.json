@@ -1,0 +1,58 @@
+{
+ "schema": 2,
+ "version": "2026-11-05.1",
+ "records_through": "2026-11-05",
+ "min_app_build": 1,
+ "files": {
+  "detail-central-southside-virginia": {
+   "path": "detail-central-southside-virginia-200efc69373f.json",
+   "sha256": "200efc69373f71065d3a551e89b08665e859f943d710898b7718bb617d7ef7c2",
+   "bytes": 125548
+  },
+  "detail-fredericksburg-the-northern-neck": {
+   "path": "detail-fredericksburg-the-northern-neck-aaef725acd7e.json",
+   "sha256": "aaef725acd7e9c9fd26ad7cbefcc501e64995056157fa2d154a2dd62919f1a77",
+   "bytes": 64668
+  },
+  "detail-hampton-roads-the-eastern-shore": {
+   "path": "detail-hampton-roads-the-eastern-shore-1c1a157bf722.json",
+   "sha256": "1c1a157bf7225aad9a053cbe522580764a262c1da575494389b6d53112f4c112",
+   "bytes": 277004
+  },
+  "detail-northern-virginia": {
+   "path": "detail-northern-virginia-08ea25c6cb6f.json",
+   "sha256": "08ea25c6cb6f8804ed1419c2690c46871dd77ff354296bd4009984f4f8b5c19a",
+   "bytes": 1035761
+  },
+  "detail-richmond-region": {
+   "path": "detail-richmond-region-c0c38bb8ada1.json",
+   "sha256": "c0c38bb8ada146ca44a147751ae077771a6f62294fe0963c9236d3b14eed9c48",
+   "bytes": 182756
+  },
+  "detail-roanoke-southwest-virginia": {
+   "path": "detail-roanoke-southwest-virginia-8d05a7f17da5.json",
+   "sha256": "8d05a7f17da5216e6bb252773b111cb81ab0f2ce88294fab03a3d626c38b8348",
+   "bytes": 122684
+  },
+  "detail-shenandoah-valley": {
+   "path": "detail-shenandoah-valley-0a8a11fb60cd.json",
+   "sha256": "0a8a11fb60cd2ebd71f0f5d2c82addee300a70d55c6dd9aea229f1b79bef3b5a",
+   "bytes": 85921
+  },
+  "places": {
+   "path": "places-28926119d95e.json",
+   "sha256": "28926119d95e012f5f249dc071e251ba1e76834f7a5410691f1d0b4d8b9cb74d",
+   "bytes": 3055869
+  },
+  "state": {
+   "path": "state-a182b92a3334.json",
+   "sha256": "a182b92a3334ea09ace9166b97c311bfa6e104b84cc7e6d90542f7e79f2f9f47",
+   "bytes": 14913
+  }
+ },
+ "counts": {
+  "places": 17918,
+  "restaurants": 17486,
+  "bytes": 4965124
+ }
+}
